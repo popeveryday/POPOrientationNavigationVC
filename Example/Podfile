@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'POPOrientationNavigationVC_Example', :exclusive => true do
+  pod 'POPOrientationNavigationVC', :path => '../'
+end
+
+target 'POPOrientationNavigationVC_Tests', :exclusive => true do
+  pod 'POPOrientationNavigationVC', :path => '../'
+
+  
+end
