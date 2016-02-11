@@ -1,0 +1,25 @@
+{
+  "name": "POPOrientationNavigationVC",
+  "version": "0.1.0",
+  "summary": "A short description of POPOrientationNavigationVC.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/POPOrientationNavigationVC",
+  "license": "MIT",
+  "authors": {
+    "popeveryday": "popeveryday@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/POPOrientationNavigationVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "POPOrientationNavigationVC": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
