@@ -24,7 +24,7 @@
 }
 
 +(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController{
-    POPOrientationNavigationVC* nav = [POPOrientationNavigationVC initGTScrollBarWithRootVC:rootViewController];
+    POPOrientationNavigationVC* nav = [[POPOrientationNavigationVC alloc] initGTScrollBarWithRootVC:rootViewController];
     return nav;
 }
 
