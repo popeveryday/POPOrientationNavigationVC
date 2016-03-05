@@ -11,6 +11,9 @@
 
 @interface POPOrientationNavigationVC : UINavigationController
 
++(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController;
+-(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController;
+
 @end
 
 

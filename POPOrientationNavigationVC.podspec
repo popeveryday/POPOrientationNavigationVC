@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "POPOrientationNavigationVC"
-s.version          = "0.1.1"
+s.version          = "0.1.2"
 s.summary          = "Lock rotation for specific ViewController that implements POPOrientationNavigationVC,  for Object-c project."
 s.homepage         = "https://github.com/popeveryday/POPOrientationNavigationVC"
 s.license          = 'MIT'

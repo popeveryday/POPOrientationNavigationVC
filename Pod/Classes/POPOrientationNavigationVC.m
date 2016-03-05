@@ -23,6 +23,20 @@
     return self;
 }
 
++(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController{
+    POPOrientationNavigationVC* nav = [POPOrientationNavigationVC initGTScrollBarWithRootVC:rootViewController];
+    return nav;
+}
+
+-(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController
+{
+    self = [super initWithNavigationBarClass:[GTScrollNavigationBar class] toolbarClass:nil];
+    if (self) {
+        [self setViewControllers:@[rootViewController] animated:NO];
+    }
+    return self;
+}
+
 
 - (void)viewDidLoad
 {
