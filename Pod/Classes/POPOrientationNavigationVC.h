@@ -11,27 +11,6 @@
 
 @interface POPOrientationNavigationVC : UINavigationController
 
-+(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController;
--(id)initGTScrollBarWithRootVC:(UIViewController *)rootViewController;
-
-@end
-
-
-typedef enum {
-    GTScrollNavigationBarNone,
-    GTScrollNavigationBarScrollingDown,
-    GTScrollNavigationBarScrollingUp
-} GTScrollNavigationBarState;
-
-@interface GTScrollNavigationBar : UINavigationBar
-
-@property (strong, nonatomic) UIScrollView *scrollView;
-@property (assign, nonatomic) GTScrollNavigationBarState scrollState;
-@property (nonatomic) BOOL fixRootViewController;
-
-
-- (void)resetToDefaultPositionWithAnimation:(BOOL)animated;
-
 @end
 
 //PUT THESE LINES IN YOUR VIEWCONTROLLER TO HANDLE ORIENTATION
