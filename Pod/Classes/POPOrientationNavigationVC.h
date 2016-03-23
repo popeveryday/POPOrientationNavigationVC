@@ -27,6 +27,8 @@ typedef enum {
 
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (assign, nonatomic) GTScrollNavigationBarState scrollState;
+@property (nonatomic) BOOL fixRootViewController;
+
 
 - (void)resetToDefaultPositionWithAnimation:(BOOL)animated;
 

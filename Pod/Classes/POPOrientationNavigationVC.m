@@ -283,6 +283,14 @@ shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherG
         self.scrollView.superview.frame = parentViewFrame;
     }
     
+    if (self.fixRootViewController) {
+        UINavigationController *rootController = (UINavigationController*)[[[UIApplication sharedApplication] delegate] window].rootViewController;
+        CGRect rframe = rootController.viewControllers[0].view.frame;
+        rframe.origin.y += offsetY;
+        rframe.size.height -= offsetY;
+        rootController.viewControllers[0].view.frame = rframe;
+    }
+    
     if (animated) {
         [UIView commitAnimations];
     }
