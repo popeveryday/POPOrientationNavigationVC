@@ -1,5 +1,5 @@
 PODS:
-  - POPOrientationNavigationVC (0.1.0)
+  - POPOrientationNavigationVC (0.1.23)
 
 DEPENDENCIES:
   - POPOrientationNavigationVC (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  POPOrientationNavigationVC: 5ab3c3c011e0993f437da9ec20c20698d8122c44
+  POPOrientationNavigationVC: cc2fe2168f0c4cb30344a4262d913a8a6de236bb
 
 COCOAPODS: 0.39.0

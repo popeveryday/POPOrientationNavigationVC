@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '24425345E2FB31F644CB340C'
+               BlueprintIdentifier = '3D60D63F3A389F18FDBEA7E6'
                BlueprintName = 'POPOrientationNavigationVC'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'POPOrientationNavigationVC.framework'>
